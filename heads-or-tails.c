@@ -26,6 +26,11 @@ int main() {
 
     // 結果の出力
     printf("Heads: %d, Tails: %d\n", heads, tails);
+    if(heads > tails){
+        printf("You won!\n");
+    } else{
+        printf("You lost!\n");
+    }
 
     return 0;
 }
