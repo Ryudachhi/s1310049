@@ -8,6 +8,12 @@ int main() {
 
     // 結果の格納用変数
     int heads = 0, tails = 0;
+    char name[100];
+
+    printf("Who are you?\n");
+    printf("> ");
+    scanf("%s", name);
+    printf("Hello, %s!\n",name);
 
     printf("Tossing a coin...\n");
 
